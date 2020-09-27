@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		A9B984502520B2EE00A1A1BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B9844F2520B2EE00A1A1BA /* Preview Assets.xcassets */; };
 		A9B9845B2520B2EE00A1A1BA /* Cat_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9845A2520B2EE00A1A1BA /* Cat_FinderTests.swift */; };
 		A9B984662520B2EE00A1A1BA /* Cat_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B984652520B2EE00A1A1BA /* Cat_FinderUITests.swift */; };
+		A9B984782520BC8200A1A1BA /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = A9B984772520BC8200A1A1BA /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B984782520BC8200A1A1BA /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = "Cat Finder";
+			packageProductDependencies = (
+				A9B984772520BC8200A1A1BA /* URLImage */,
+			);
 			productName = "Cat Finder";
 			productReference = A9B984452520B2EC00A1A1BA /* Cat Finder.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = A9B9843C2520B2EC00A1A1BA;
+			packageReferences = (
+				A9B984762520BC8200A1A1BA /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = A9B984462520B2EC00A1A1BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -580,6 +588,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9B984762520BC8200A1A1BA /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9B984772520BC8200A1A1BA /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9B984762520BC8200A1A1BA /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A9B9843D2520B2EC00A1A1BA /* Project object */;
 }
