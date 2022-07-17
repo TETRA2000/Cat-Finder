@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97617EA2883CA9200FFA4E6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97617E92883CA9200FFA4E6 /* WidgetKit.framework */; };
+		A97617EC2883CA9200FFA4E6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97617EB2883CA9200FFA4E6 /* SwiftUI.framework */; };
+		A97617EF2883CA9200FFA4E6 /* Cat_Finder_Wieget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97617EE2883CA9200FFA4E6 /* Cat_Finder_Wieget.swift */; };
+		A97617F22883CA9400FFA4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97617F12883CA9400FFA4E6 /* Assets.xcassets */; };
+		A97617F42883CA9400FFA4E6 /* Cat_Finder_Wieget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A97617F02883CA9200FFA4E6 /* Cat_Finder_Wieget.intentdefinition */; };
+		A97617F52883CA9400FFA4E6 /* Cat_Finder_Wieget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A97617F02883CA9200FFA4E6 /* Cat_Finder_Wieget.intentdefinition */; };
+		A97617F82883CA9400FFA4E6 /* Cat Finder WiegetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A97617E72883CA9200FFA4E6 /* Cat Finder WiegetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A9B984492520B2EC00A1A1BA /* Cat_FinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B984482520B2EC00A1A1BA /* Cat_FinderApp.swift */; };
 		A9B9844B2520B2EC00A1A1BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9844A2520B2EC00A1A1BA /* ContentView.swift */; };
 		A9B9844D2520B2EE00A1A1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B9844C2520B2EE00A1A1BA /* Assets.xcassets */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A97617F62883CA9400FFA4E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B9843D2520B2EC00A1A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97617E62883CA9200FFA4E6;
+			remoteInfo = "Cat Finder WiegetExtension";
+		};
 		A9B984572520B2EE00A1A1BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9B9843D2520B2EC00A1A1BA /* Project object */;
@@ -33,7 +47,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A97617FC2883CA9400FFA4E6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A97617F82883CA9400FFA4E6 /* Cat Finder WiegetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A97617E72883CA9200FFA4E6 /* Cat Finder WiegetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cat Finder WiegetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97617E92883CA9200FFA4E6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A97617EB2883CA9200FFA4E6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A97617EE2883CA9200FFA4E6 /* Cat_Finder_Wieget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_Finder_Wieget.swift; sourceTree = "<group>"; };
+		A97617F02883CA9200FFA4E6 /* Cat_Finder_Wieget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Cat_Finder_Wieget.intentdefinition; sourceTree = "<group>"; };
+		A97617F12883CA9400FFA4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97617F32883CA9400FFA4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9B984452520B2EC00A1A1BA /* Cat Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B984482520B2EC00A1A1BA /* Cat_FinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_FinderApp.swift; sourceTree = "<group>"; };
 		A9B9844A2520B2EC00A1A1BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +84,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A97617E42883CA9200FFA4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97617EC2883CA9200FFA4E6 /* SwiftUI.framework in Frameworks */,
+				A97617EA2883CA9200FFA4E6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9B984422520B2EC00A1A1BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +118,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A97617E82883CA9200FFA4E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97617E92883CA9200FFA4E6 /* WidgetKit.framework */,
+				A97617EB2883CA9200FFA4E6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97617ED2883CA9200FFA4E6 /* Cat Finder Wieget */ = {
+			isa = PBXGroup;
+			children = (
+				A97617EE2883CA9200FFA4E6 /* Cat_Finder_Wieget.swift */,
+				A97617F02883CA9200FFA4E6 /* Cat_Finder_Wieget.intentdefinition */,
+				A97617F12883CA9400FFA4E6 /* Assets.xcassets */,
+				A97617F32883CA9400FFA4E6 /* Info.plist */,
+			);
+			path = "Cat Finder Wieget";
+			sourceTree = "<group>";
+		};
 		A9B9843C2520B2EC00A1A1BA = {
 			isa = PBXGroup;
 			children = (
 				A9B984472520B2EC00A1A1BA /* Cat Finder */,
 				A9B984592520B2EE00A1A1BA /* Cat FinderTests */,
 				A9B984642520B2EE00A1A1BA /* Cat FinderUITests */,
+				A97617ED2883CA9200FFA4E6 /* Cat Finder Wieget */,
+				A97617E82883CA9200FFA4E6 /* Frameworks */,
 				A9B984462520B2EC00A1A1BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +156,7 @@
 				A9B984452520B2EC00A1A1BA /* Cat Finder.app */,
 				A9B984562520B2EE00A1A1BA /* Cat FinderTests.xctest */,
 				A9B984612520B2EE00A1A1BA /* Cat FinderUITests.xctest */,
+				A97617E72883CA9200FFA4E6 /* Cat Finder WiegetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +202,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A97617E62883CA9200FFA4E6 /* Cat Finder WiegetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97617F92883CA9400FFA4E6 /* Build configuration list for PBXNativeTarget "Cat Finder WiegetExtension" */;
+			buildPhases = (
+				A97617E32883CA9200FFA4E6 /* Sources */,
+				A97617E42883CA9200FFA4E6 /* Frameworks */,
+				A97617E52883CA9200FFA4E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cat Finder WiegetExtension";
+			productName = "Cat Finder WiegetExtension";
+			productReference = A97617E72883CA9200FFA4E6 /* Cat Finder WiegetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A9B984442520B2EC00A1A1BA /* Cat Finder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9B9846A2520B2EE00A1A1BA /* Build configuration list for PBXNativeTarget "Cat Finder" */;
@@ -142,10 +226,12 @@
 				A9B984412520B2EC00A1A1BA /* Sources */,
 				A9B984422520B2EC00A1A1BA /* Frameworks */,
 				A9B984432520B2EC00A1A1BA /* Resources */,
+				A97617FC2883CA9400FFA4E6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A97617F72883CA9400FFA4E6 /* PBXTargetDependency */,
 			);
 			name = "Cat Finder";
 			packageProductDependencies = (
@@ -197,9 +283,12 @@
 		A9B9843D2520B2EC00A1A1BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					A97617E62883CA9200FFA4E6 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					A9B984442520B2EC00A1A1BA = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -232,11 +321,20 @@
 				A9B984442520B2EC00A1A1BA /* Cat Finder */,
 				A9B984552520B2EE00A1A1BA /* Cat FinderTests */,
 				A9B984602520B2EE00A1A1BA /* Cat FinderUITests */,
+				A97617E62883CA9200FFA4E6 /* Cat Finder WiegetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A97617E52883CA9200FFA4E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97617F22883CA9400FFA4E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9B984432520B2EC00A1A1BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,12 +361,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A97617E32883CA9200FFA4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97617F42883CA9400FFA4E6 /* Cat_Finder_Wieget.intentdefinition in Sources */,
+				A97617EF2883CA9200FFA4E6 /* Cat_Finder_Wieget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9B984412520B2EC00A1A1BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9B9844B2520B2EC00A1A1BA /* ContentView.swift in Sources */,
 				A9B984492520B2EC00A1A1BA /* Cat_FinderApp.swift in Sources */,
+				A97617F52883CA9400FFA4E6 /* Cat_Finder_Wieget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +399,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A97617F72883CA9400FFA4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97617E62883CA9200FFA4E6 /* Cat Finder WiegetExtension */;
+			targetProxy = A97617F62883CA9400FFA4E6 /* PBXContainerItemProxy */;
+		};
 		A9B984582520B2EE00A1A1BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A9B984442520B2EC00A1A1BA /* Cat Finder */;
@@ -304,6 +417,62 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A97617FA2883CA9400FFA4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 788YH48Y3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cat Finder Wieget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Finder Wieget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.tetra2000.Cat-Finder.Cat-Finder-Wieget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A97617FB2883CA9400FFA4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 788YH48Y3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cat Finder Wieget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cat Finder Wieget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.tetra2000.Cat-Finder.Cat-Finder-Wieget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A9B984682520B2EE00A1A1BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -355,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -423,6 +592,7 @@
 		A9B9846B2520B2EE00A1A1BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,7 +600,7 @@
 				DEVELOPMENT_TEAM = 788YH48Y3Q;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Cat Finder/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +615,7 @@
 		A9B9846C2520B2EE00A1A1BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,7 +623,7 @@
 				DEVELOPMENT_TEAM = 788YH48Y3Q;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Cat Finder/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +639,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 788YH48Y3Q;
 				INFOPLIST_FILE = "Cat FinderTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,11 +662,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 788YH48Y3Q;
 				INFOPLIST_FILE = "Cat FinderTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,6 +724,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A97617F92883CA9400FFA4E6 /* Build configuration list for PBXNativeTarget "Cat Finder WiegetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97617FA2883CA9400FFA4E6 /* Debug */,
+				A97617FB2883CA9400FFA4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A9B984402520B2EC00A1A1BA /* Build configuration list for PBXProject "Cat Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
